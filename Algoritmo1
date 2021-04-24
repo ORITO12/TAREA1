@@ -1,1 +1,13 @@
-# TAREA1
+Realiza un algoritmo que pida tres números, y luego muestre la suma y la multiplicación entre los
+tres números.
+
+Algoritmo sin_titulo
+	Escribir "Ingrese los numeros"
+	Leer num1
+	Leer num2
+	Leer num3	
+	num4 <- num1 + num2 + num3
+	num5 <- num1 * num2 * num3
+	Escribir "La suma es " num4
+	Escribir "La multiplicacion es " num5
+FinAlgoritmo
