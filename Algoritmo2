@@ -1,1 +1,23 @@
+Realiza un algoritmo que pida tres números, y luego nos indique cual es el mayor de todos.
 
+Algoritmo sin_titulo
+	Escribir "Ingrese los numeros"
+	Leer numero1
+	Leer numero2
+	Leer numero3
+	Si numero1 > numero2 Entonces
+		Si numero1 > numero3 Entonces
+			Escribir "El mayor es" numero1
+		SiNo
+			Si numero3 > numero2 Entonces
+				Escribir "El mayor es " numero3				
+			SiNo				
+			Fin Si
+		Fin Si
+	SiNo
+		Si numero2 > numero3 Entonces
+			Escribir "El mayor es" numero2
+		SiNo			
+		Fin Si
+	Fin Si
+FinAlgoritmo
